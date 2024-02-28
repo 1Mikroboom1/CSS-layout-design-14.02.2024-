@@ -1,0 +1,187 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.toptext {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0.5% 0.6%;
+}
+
+p.toptext {
+	font-size: xx-large;
+	color: rgb(109, 118, 253);
+	font-weight: bold;
+	margin-bottom: 0%;
+}
+
+p.toptextrev {
+	font-size: xx-large;
+	color: white;
+	background-color: rgb(109, 118, 253);
+	font-weight: bold;
+	margin: 0.5% 0.6% 0%;
+	vertical-align: bottom;
+}
+
+#logo {
+	shape-margin: 0%;
+	margin: 2% 0% -0.5% 50%;
+    float: right;
+	width: 10%;
+}
+
+.maincontent {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+h1 {
+	margin-top: 0%;
+	margin-bottom: 0%;
+	font-size: xxx-large;
+	text-indent: 0%;
+}
+
+h1.toptext {
+	flex: 0 0 5%;
+}
+
+h2 {
+	font-size: large;
+	text-indent: 0%;
+}
+
+article {
+	text-indent: 3%;
+}
+
+.flex {
+	display: flex;
+	flex-direction: row;
+}
+
+.flexobj {
+	flex: 0 0 33%
+}
+
+section {
+	padding: 0.5%;
+	border: 10px solid #ffffff;
+	flex: 0 0 60%;
+	border-bottom: 0px;
+}
+
+.background {
+	background-color: #b5d4fffe;
+	flex: 0 0 35%;
+}
+
+ul.snow {
+	list-style-type: "❄️ ";
+}
+
+li {
+	font-size: large;
+}
+
+.double {
+	column-count: 2;
+}
+
+.topdouble {
+	column-count: 2;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+p {
+	margin-top: 0%;
+	margin-bottom: 0%;
+	font-size: large;
+}
+
+#png1 {
+	shape-outside: circle(50%);
+    clip-path: circle(50%);
+    shape-margin: 1%;
+	margin: 1% -5% 1% 1%;
+    float: right;
+	width: 45%;
+}
+
+#png2 {
+    shape-margin: 1%;
+	margin: 1%;
+    float: right;
+	width: 40%;
+	position: relative;
+	z-index: 2;
+}
+
+#png3 {
+	shape-margin: 0%;
+	margin: -30% 10% -50% -50%;
+    float: right;
+	width: 60%;
+	position: relative;
+	z-index: 1;
+}
+
+#jpg4 {
+	margin: 1%;
+	width: 98%;
+}
+
+#jpg5 {
+	width: 85%;
+	margin: -10% 0% 0% 0%;
+	z-index: 1;
+}
+
+#jpg61 {
+	shape-margin: 100%;
+	margin: 48% -28% 0% 0%;
+    float: right;
+	width: 65%;
+	position: relative;
+	z-index: 2;
+	border: 10px solid white;
+}
+
+#jpg62 {
+	shape-margin: 10%;
+	margin: -13% 0% 0% -44%;
+    float: left;
+	width: 65%;
+	position: relative;
+	z-index: 2;
+	border: 10px solid white;
+}
+
+#jpg7 {
+	width: 85%;
+	margin: 2% 0%;
+	position: relative;
+	z-index: 1;
+}
+
+#jpg8 {
+	width: 90%;
+	margin: 1% 0%;
+}
+
+.bottomtext {
+	margin-top: 20%;
+	text-align: right;
+	font-weight: bold;
+}
+
+hr {
+	border: 5px solid rgb(109, 118, 253);
+	margin: 0% 0.6%;
+}
